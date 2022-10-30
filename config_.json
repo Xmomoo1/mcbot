@@ -1,0 +1,42 @@
+{
+    "_COMMENT": "RENAME THIS TO CONFIG.JSON",
+
+
+
+
+
+    "info": {
+        "server_ip": "",
+        "username": "",
+        "password": "",
+        "cracked": true
+    },
+    "_comment": "ignore the info thing, its not done",
+
+
+    "join_message": {
+        "enabled": true,
+        "message": "survival",
+        "_comment": "If it is command dont add '/' before the command",
+        "isCommand": true
+    },
+
+    "discord_log": {
+        "usersID":{
+            "discord_IDS": ["943142947946364928", "700186152304508929"],
+            "_comment": "ign example, [{ 'discordID': 'NAME', 'anotherDiscordID': 'NAME' }] (leave empty to enable commands for all the users in the discord server)",
+            "ign": [{}]
+        },
+        "bot_token": "MTAxNDkyODU3MzE1ODY2NjMxMQ.GTOH-f.HRKYnUHfsdQo8FCyzcYx5MXA0JGQs-jl5_j-ec",
+        "chat_channel": {
+            "channel_ID": "1022295991463968849",
+            "ignore": ["+-----------------------------------------+", "Welcome immelol to Gotham Survival", "Join our Discord community at https://discord.gg/hp443ThNFq", "Learn how to play survival with /help", "Vote every day for rewards with /vote", "Upgrade your experience with /ranks", "To teleport, type /tpaccept.", "To deny this request, type /tpdeny.", "This request will timeout after 120 seconds.", "---»-----------------------------------------«---", "[Bane] Unlike Maggie Bane is Punishing Players for Unfair Advantage."],
+            "_comment": "example of fast_replies, [{'message': 'its reply'}]",
+            "fast_replies": [{}]
+        },
+        "guild_ID": "1014926835504660542"
+    },
+    "disabled_commands": [],
+    "enabled_whisper": true,
+    "prefix": "!"
+}
