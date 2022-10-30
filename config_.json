@@ -27,7 +27,7 @@
             "_comment": "ign example, [{ 'discordID': 'NAME', 'anotherDiscordID': 'NAME' }] (leave empty to enable commands for all the users in the discord server)",
             "ign": [{}]
         },
-        "bot_token": "MTAxNDkyODU3MzE1ODY2NjMxMQ.GTOH-f.HRKYnUHfsdQo8FCyzcYx5MXA0JGQs-jl5_j-ec",
+        "bot_token": "",
         "chat_channel": {
             "channel_ID": "1022295991463968849",
             "ignore": ["+-----------------------------------------+", "Welcome immelol to Gotham Survival", "Join our Discord community at https://discord.gg/hp443ThNFq", "Learn how to play survival with /help", "Vote every day for rewards with /vote", "Upgrade your experience with /ranks", "To teleport, type /tpaccept.", "To deny this request, type /tpdeny.", "This request will timeout after 120 seconds.", "---»-----------------------------------------«---", "[Bane] Unlike Maggie Bane is Punishing Players for Unfair Advantage."],
