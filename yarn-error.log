@@ -1,0 +1,56 @@
+Arguments: 
+  /home/yahia/.nvm/versions/node/v18.9.0/bin/node /usr/local/bin/yarn add mineflayer mineflayer-auto-auth discord.js mineflayer-pathfiner mineflayer-auto-eat mineflayer-armor-manager minecraft-data
+
+PATH: 
+  /home/yahia/.nvm/versions/node/v18.9.0/bin:/home/yahia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-17-oracle/bin:/usr/lib/jvm/java-17-oracle/db/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mineflayer-pathfiner: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "mc-bot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:XmomooDev/nigga.git",
+    "license": "MIT",
+    "scripts": {
+      "start": "node ."
+    },
+    "dependencies": {
+      "discord.js": "^13.10.3",
+      "minecraft-data": "^3.12.0",
+      "mineflayer": "^4.4.0",
+      "mineflayer-armor-manager": "^1.4.2",
+      "mineflayer-auto-auth": "^2.0.0",
+      "mineflayer-auto-eat": "^2.3.3",
+      "mineflayer-collectblock": "^1.4.1",
+      "mineflayer-pathfinder": "^2.3.3",
+      "mineflayer-tool": "^1.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

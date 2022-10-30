@@ -1,0 +1,23 @@
+{
+  "name": "mc-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:XmomooDev/nigga.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon ."
+  },
+  "dependencies": {
+    "discord.js": "^13.11.0",
+    "minecraft-data": "^3.12.0",
+    "mineflayer": "^4.4.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-auto-auth": "^2.0.0",
+    "mineflayer-auto-eat": "^2.3.3",
+    "mineflayer-collectblock": "^1.4.1",
+    "mineflayer-pathfinder": "^2.3.3",
+    "mineflayer-tool": "^1.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
